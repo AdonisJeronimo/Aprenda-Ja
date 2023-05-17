@@ -2,6 +2,12 @@
     html{
         font-size: 55%;
     }
+
+   /* HOME */
+    .home .row .content h3{
+        font-size: 8rem;
+    }
+    
 }
 
 @media (max-width:768px){
@@ -13,7 +19,6 @@
     #menu-btn.fa-times{
         transform: rotate(180deg);
     }
-
 
     .header .flex .navbar{
         position: absolute;
@@ -31,13 +36,21 @@
     .header .flex .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
-   
 
     .header .flex .navbar a{
         display: block;
         margin: 2rem;
 
     }
+
+    /* HOME */
+    .home .row .content h3{
+        font-size: 6rem;
+    }
+    .home .row .image img{
+        width: 70%;
+    }
+    
 
 }
 @media (max-width:450px){
