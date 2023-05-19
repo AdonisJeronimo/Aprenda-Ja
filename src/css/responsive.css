@@ -57,4 +57,9 @@
     html{
         font-size: 50%;
     }
+
+        /* HOME */
+        .home .row .content h3{
+            font-size: 6rem;
+        }
 }

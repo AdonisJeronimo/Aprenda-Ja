@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Uma das melhores plataformas de ensino online, com mais de diversos cursos, venha e aprenda já.">
     <title>Aprenda Já</title>
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- GOOGLE FONTS -->
@@ -91,11 +93,66 @@
         </section>
         <!-- ABOUT -->
         <section class="about" id="about">
-            
+            <div class="row">
+                <div class="image">
+                    <img src="src/images/about-img.svg" alt="ilustração de uma pessoa estudando na mesa">
+                </div>
+
+                <div class="content">
+                    <h3>Por que estudar com a gente?</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam natus nostrum iusto aut maiores placeat culpa minima sapiente sunt quisquam corporis dicta, perferendis ducimus ea repudiandae consequatur incidunt distinctio doloremque?</p>
+                    <a href="#contact" class="home-btn">Contate-nos</a>
+
+                </div>
+            </div>
         </section>
         <!-- COURSES -->
         <section class="courses" id="courses">
+            <h1 class="heading">Nossos <span>Cursos</span></h1>
 
+            <div class="swiper course-slider">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide slide">
+                        <img src="src/images/web-developer.svg" alt="Curso de Desenvolvedor Web">
+                        <h3>Desenvolvedor Web</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, consectetur!</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="src/images/course2.svg" alt="Curso de Marketing Digital">
+                        <h3>Marketing Digital</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, consectetur!</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="src/images/course3.svg" alt="Curso de Fisica">
+                        <h3>Fisica</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, consectetur!</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="src/images/course4.svg" alt="Curso de Medicina">
+                        <h3>Medicia</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, consectetur!</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="src/images/course5.svg" alt="Curso de Fotografia">
+                        <h3>Fotografia</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, consectetur!</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="src/images/course5.svg" alt="Curso de Fotografia">
+                        <h3>Fotografia</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, consectetur!</p>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
         <!-- TEACHERS -->
         <section class="teachers" id="teachers">
@@ -113,7 +170,9 @@
     </main>
 
 
-    
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- JS -->
     <script src="src/js/script.js"></script>
 </body>
 </html>
