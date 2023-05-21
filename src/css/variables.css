@@ -1,12 +1,10 @@
 :root{
-    --green: #00E77F;
     --white: #FFF;
-    --light-white: #aaa;
-    --bodyColor: #1B43A6;
-    --light-bg: #4b4b4b;
+    --bodyColor: #fff;
 
     --primary-color: #1B43A6;
-    --primary-color-hover: #FFE30F;
     --secondary-color:#041236;
+
+    --card-color-hover: #000
     
 }

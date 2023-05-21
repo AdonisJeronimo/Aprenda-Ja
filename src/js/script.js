@@ -68,3 +68,20 @@ var swiper = new Swiper(".reviews-slider", {
         },
     },
 });
+
+// shadow on scroll
+
+function shadowNavBar(){
+    window.addEventListener('scroll', () => {
+        const pageHeight = window.scrollY;
+    const navbar = document.querySelector('.header');
+
+        if(pageHeight < 300){
+            navbar.classList.remove('scroll')
+        }else{
+            navbar.classList.add('scroll')
+        }
+    })
+}
+
+shadowNavBar();
